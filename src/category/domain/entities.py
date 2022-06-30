@@ -6,6 +6,6 @@ class Category:
         self.name = name
         self.description = description
         self.is_active = is_active
-        self.create_at = created_at
+        self.created_at = created_at
 
 # print(vars(Category('Movie')))
